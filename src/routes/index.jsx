@@ -1,16 +1,16 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Login from './LoginPage/LoginPage'
-import SignUpEmail from './Signup/Signup'
-import { ProtectedPages } from './ProtectedPages/ProtectedPages'
-import Layout from './Layout/Layout'
-import { PostFeed } from './PostFeed/PostFeed'
-import { Profiles } from './Profiles/Profiles'
-import { FindFriends } from './FindFriends/FindFriends'
-import { LoginLayout } from './LoginLayout/LoginLayout'
-import EditProfile from './Profiles/EditProfile'
-import SignUpSuccess from './Signup/SignUpSuccess'
-import SignUpForm from './Signup/SignUpForm'
-import UserProfile from './Profiles/UserProfile'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './LoginPage/LoginPage';
+import SignUpEmail from './Signup/Signup';
+import { ProtectedPages } from './ProtectedPages/ProtectedPages';
+import Layout from './Layout/Layout';
+import { PostFeed } from './PostFeed/PostFeed';
+import { Profiles } from './Profiles/Profiles';
+import { FindFriends } from './FindFriends/FindFriends';
+import { LoginLayout } from './LoginLayout/LoginLayout';
+import EditProfile from './Profiles/EditProfile';
+import SignUpSuccess from './Signup/SignUpSuccess';
+import SignUpForm from './Signup/SignUpForm';
+import UserProfile from './Profiles/UserProfile';
 
 export const Router = () => {
   return (
@@ -33,5 +33,5 @@ export const Router = () => {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
