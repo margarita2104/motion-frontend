@@ -14,7 +14,7 @@ import UserProfile from './Profiles/UserProfile'
 
 export const Router = () => {
   return (
-    <Router basename="/motion-frontend">
+    <BrowserRouter basename="/motion-frontend">
       <Routes>
         <Route element={<LoginLayout />}>
           <Route path="/login" element={<Login />} />
@@ -32,6 +32,6 @@ export const Router = () => {
           </Route>
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
